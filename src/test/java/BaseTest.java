@@ -14,6 +14,7 @@ public class BaseTest {
 
         driver.findElement(By.name("j_username")).sendKeys("kononirin");
         driver.findElement(By.name("j_password")).sendKeys("nthvbyfnjh123");
+        driver.findElement(By.name("Submit")).click();
     }
 
     @AfterMethod
